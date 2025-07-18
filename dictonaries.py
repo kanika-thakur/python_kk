@@ -1,72 +1,102 @@
 #make a dictonaries
-dict={
-    "name":"KANIKA THAKUR",
-    "age": 21,
-    "merital":"single"
+# dict={
+#     "name":"KANIKA THAKUR",
+#     "age": 21,
+#     "merital":"single",
+#     "color":["red","yellow","white"]
 
-}
-print(dict)
-print(dict["age"])
+# }
+# print(dict)
+# print(dict["age"])
 
 
-#length of dictonaires
-print(len(dict))
+# #length of dictonaires
+# print(len(dict))
 
-#type of dictonaires
-print(type(dict))
+# #for measuring multiple data types
 
-#using dict() constructo 
-#thisdict=dict(name="kanika",age=56,maritalstatus="single")
-##print(thisdict)
+# #add new values 
+# dict["color"]="pink"
+# print(dict)
 
-#print(x)
+# #update the values
+# dict.update({"color":"red"})
+# print(dict)
 
-#add the elements in the ductionry 
-x=dict.keys()
-print(x)
 
-dict["color"]="white"
-print(x)
+# #type of dictonaires
+# print(type(dict))
 
-#remove the elmemts from dictonaries 
-dict.pop("merital")
-print(dict)
+# #add the elements in the ductionry 
+# x=dict.keys()
+# print(x)
 
-#update the dictonaries
-dict.update({"color": "red"})
+# dict["color"]="white"
+# print(x)
 
-#change the values 
-dict["age"]=22
-print(dict)
+# #remove the elmemts from dictonaries 
+# dict.pop("merital")
+# print(dict)
 
-#add the elements
-dict["skincolor"]="brown"
-print(dict)
+# #update the dictonaries
+# dict.update({"color": "red"})
 
-#loop in dictionaries
-for x in dict:
-    print("it exists")
+# #change the values 
+# dict["age"]=22
+# print(dict)
 
-#copy in dictonaries
-mydict=dict.copy()
-print(mydict)
+# #add the elements
+# dict["skincolor"]="brown"
+# print(dict)
 
-#nested dictonaries
-myFamily={
-    "child1":{
-        "name":"kanika",
-        "year":2004
-    },
-    "child2":{
-        "name":"shyam",
-        "year":2006
-    },
-    "child3":{
-        "name":"zaid",
-        "year":2008
-    }
+# #loop in dictionaries
+# for x in dict:
+#     print("it exists")
 
-}
-print(myFamily)
-print(myFamily["child1"]["name"])
-print("my name is ankush")
+# #copy in dictonaries
+# mydict=dict.copy()
+# print(mydict)
+
+# #nested dictonaries
+# myFamily={
+#     "child1":{
+#         "name":"kanika",
+#         "year":2004
+#     },
+#     "child2":{
+#         "name":"shyam",
+#         "year":2006
+#     },
+#     "child3":{
+#         "name":"zaid",
+#         "year":2008
+#     }
+
+# }
+# print(myFamily)
+# print(myFamily["child1"]["name"])
+# print("my name is ankush")
+
+# #removes the elments 
+# dict.pop("age")
+# print(dict)
+
+# #delete value through popitem
+# dict.popitem()
+# print(dict)
+
+# #delete value
+# del dict["merital"]
+# print(dict)
+
+
+# dict2={
+#     "table":("a piece of furniture","list of facts and figures"),
+#     "car":"a small animal"
+# }
+# print(dict2)
+
+
+
+
+
