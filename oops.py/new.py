@@ -16,6 +16,3 @@ class BankAccount():
 val=BankAccount("kanika",1000)
 val.deposit(500)
 val.withdraw(200)
-       
-     
-    

@@ -34,4 +34,6 @@ print("area of rectangle:",obj2.area())
 
 
 
+
+
     
